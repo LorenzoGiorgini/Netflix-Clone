@@ -137,3 +137,12 @@ body {
     box-shadow: none;
     border: 3px solid rgb(255, 255, 255);
 }
+
+#service-code {
+    background: #141414;
+    color: grey;
+    border: 1px solid grey;
+    font-size: 13px;
+    padding: .5em;
+    height: 35px;
+}
