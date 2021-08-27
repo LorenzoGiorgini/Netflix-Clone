@@ -129,5 +129,11 @@ body {
 }
 
 .double-buttons:hover {
-    background: darkgray;
+    background: rgb(71, 71, 71);
+}
+
+.double-buttons:focus {
+    background: rgb(71, 71, 71);
+    box-shadow: none;
+    border: 3px solid rgb(255, 255, 255);
 }
