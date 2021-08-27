@@ -60,8 +60,9 @@ body {
     display: flex;
     align-items: center;
     color: white;
-    margin-left: 40px;
+    margin-left: 25px;
     position: relative;
+    margin-top: 100px;
 }
 
 .genres-button {
@@ -154,7 +155,30 @@ body {
     color: white;
 }
 
+#service-code:focus {
+    background: rgb(71, 71, 71);
+    box-shadow: none;
+    border: 1px solid rgb(255, 255, 255);
+}
+
 
 .color-p-in-col {
     color: grey;
+}
+
+.shows-title {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 16px;
+    position: relative;
+    margin-top: 100px;
+}
+
+.col-size-style {
+    border: none;
+}
+
+.footer-content {
+    margin-top: 100px;
 }
