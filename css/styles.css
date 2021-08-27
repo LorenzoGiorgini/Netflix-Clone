@@ -114,9 +114,7 @@ body {
 }
 
 .double-button {
-    position: absolute;
-    right: 0;
-    margin-right: 100px;
+    margin-right: 70px;
 }
 
 .double-buttons {
@@ -180,5 +178,5 @@ body {
 }
 
 .footer-content {
-    margin-top: 100px;
+    margin-top: 150px;
 }
