@@ -4,21 +4,22 @@
 
 body {
     background: #141414;
+    overflow-x: hidden;
 }
 
 #profile-image {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
 }
 
 .profile-button {
-    margin-right: 40px;
     background: transparent;
     border: none;
     color: white;
     color: rgb(255, 255, 255);
     background-color: transparent;
     border: none;
+    margin-right: 20px;
 }
 
 .profile-button:hover {
@@ -41,25 +42,26 @@ body {
 .kids-text {
     text-align: center;
     color: white;
-    margin-right: 20px;
+    margin-right: 25px;
     margin-bottom: 2px;
 }
 
 .search-icon {
-    margin-right: 20px;
+    margin-right: 25px;
     margin-bottom: 5px;
 }
 
 .bell-icon {
     margin-bottom: 5px;
-    margin-right: 5px;
+    margin-right: 15px;
 }
 
 .tv-shows {
     display: flex;
     align-items: center;
     color: white;
-    margin-left: 41px;
+    margin-left: 40px;
+    position: relative;
 }
 
 .genres-button {
@@ -108,5 +110,24 @@ body {
 .netflix-logo {
     width: 100px;
     height: 50px;
+}
 
+.double-button {
+    position: absolute;
+    right: 0;
+    margin-right: 100px;
+}
+
+.double-buttons {
+    border-radius: 0px;
+    background: #141414;
+    border: 1px solid white;
+    color: gray;
+    width: 55px;
+    text-align: center;
+    height: 40px;
+}
+
+.double-buttons:hover {
+    background: darkgray;
 }
